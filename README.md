@@ -11,7 +11,7 @@ Those are some basics utilities; feel free to propose more!
 
 ## Tech
 I propose:
-* Laravel API
+* Laravel API (maybe [slim](https://www.slimframework.com/))
 * React + Redux
 
 Let's go!
