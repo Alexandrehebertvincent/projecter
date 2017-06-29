@@ -1,4 +1,5 @@
 # projecter 
+![CircleCI](https://circleci.com/gh/Alexandrehebertvincent/projecter.svg?style=shield)
 ***Project life manager, whatever project you are on*** 👍
 
 ## Utility
