@@ -11,7 +11,7 @@ Those are some basics utilities; feel free to propose more!
 
 ## Tech
 I propose:
-* Laravel API (maybe [slim](https://www.slimframework.com/) or [sinatra](http://www.sinatrarb.com/))
+* [Dinatra](http://www.sinatrarb.com/) projecter-api
 * React + Redux
 
 Let's go!
