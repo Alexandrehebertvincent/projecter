@@ -11,7 +11,7 @@ Those are some basics utilities; feel free to propose more!
 
 ## Tech
 I propose:
-* [Dinatra](http://www.sinatrarb.com/) projecter-api
+* [Dinatra](http://www.sinatrarb.com/) [projecter-api](https://github.com/Alexandrehebertvincent/projecter-api)
 * React + Redux
 
 Let's go!
