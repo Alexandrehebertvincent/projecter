@@ -9,9 +9,7 @@ Those are some basics utilities; feel free to propose more!
 * Add a **or multiple** client
 * Create and send invoice
 
-## Tech
-I propose:
-* [Sinatra](http://www.sinatrarb.com/) [projecter-api](https://github.com/Alexandrehebertvincent/projecter-api)
-* React + Redux
+## API
+[projecter-api](https://github.com/Alexandrehebertvincent/projecter-api)
 
 Let's go!
