@@ -1,5 +1,4 @@
 - hosts: web
-  remote_user: projecter
 
   tasks:
 
