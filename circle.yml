@@ -12,8 +12,6 @@ dependencies:
     - pip install --upgrade setuptools
     - npm install npm@latest -g
     - curl -o- -L https://yarnpkg.com/install.sh | TERM=xterm bash
-  post:
-    - yarn
 
 test:
   override:
@@ -27,6 +25,5 @@ deployment:
   prod:
     branch: master
     commands:
-      - yarn
       - yarn build
       - ansible-playbook deployment/deploy.yml -i deployment/vars
