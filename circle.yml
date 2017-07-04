@@ -25,5 +25,6 @@ deployment:
   prod:
     branch: master
     commands:
-      - npm run clean && cross-env NODE_ENV=production npm run compile
+      - npm cache clean
+      - yarn build
       - ansible-playbook deployment/deploy.yml -i deployment/vars
