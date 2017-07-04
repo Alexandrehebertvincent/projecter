@@ -1,0 +1,15 @@
+- hosts: web
+  remote_user: projecter
+
+  tasks:
+
+  - name: Delete old website version
+    file: path=/home/projecter/web state=absent
+
+  - name: Create web directory
+    file: path=/home/projecter/web state=directory
+
+  - name: Upload new build
+    copy:
+      src: ../dist/
+      dest: /home/projecter/web/
