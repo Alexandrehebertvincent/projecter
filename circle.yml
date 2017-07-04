@@ -29,5 +29,6 @@ deployment:
   prod:
     branch: master
     commands:
+      - yarn
       - yarn build
       - ansible-playbook deployment/deploy.yml -i deployment/vars
