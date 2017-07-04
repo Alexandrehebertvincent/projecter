@@ -1,5 +1,5 @@
 - hosts: web
-  ansible_ssh_user: projecter
+  remote_user: projecter
 
   tasks:
 
