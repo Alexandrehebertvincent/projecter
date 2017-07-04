@@ -13,7 +13,7 @@ dependencies:
     - npm install npm@latest -g
     - npm cache clean --force
     - npm install -g n
-    - n stable
+    - sudo n stable
     - curl -o- -L https://yarnpkg.com/install.sh | TERM=xterm bash
   post:
     - yarn
