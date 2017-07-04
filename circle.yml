@@ -11,9 +11,9 @@ dependencies:
     - pip install ansible
     - pip install --upgrade setuptools
     - npm install npm@latest -g
-    - sudo npm cache clean
-    - sudo npm install -g n
-    - sudo n stable
+    - npm cache clean
+    - npm install -g n
+    - n stable
     - curl -o- -L https://yarnpkg.com/install.sh | TERM=xterm bash
   post:
     - yarn
