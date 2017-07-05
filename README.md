@@ -1,5 +1,5 @@
 # projecter 
-![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield)
+![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) [![Coverage Status](https://coveralls.io/repos/github/projecter-org/projecter/badge.svg?branch=master)](https://coveralls.io/github/projecter-org/projecter?branch=master)
 
 ***Project life manager, whatever project you are on*** 👍
 
