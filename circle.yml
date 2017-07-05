@@ -12,10 +12,16 @@ dependencies:
     - pip install --upgrade setuptools
     - npm install npm@latest -g
     - curl -o- -L https://yarnpkg.com/install.sh | TERM=xterm bash
+    - npm install coveralls
 
 test:
   override:
     - yarn test
+    - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
+  post:
+    - mkdir $CIRCLE_ARTIFACTS/coveralls
+    - mv coverage/html/*.* $CIRCLE_ARTIFACTS/coveralls
+    - curl -sSL https://download.sourceclear.com/ci.sh | sh
     
 general:
   artifacts:
