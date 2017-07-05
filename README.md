@@ -1,5 +1,5 @@
 # projecter 
-![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield)
+![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) [![codecov](https://codecov.io/gh/projecter-org/projecter/branch/master/graph/badge.svg)](https://codecov.io/gh/projecter-org/projecter) [![TravisCI](https://travis-ci.org/projecter-org/projecter.svg?branch=master)]
 
 ***Project life manager, whatever project you are on*** 👍
 
