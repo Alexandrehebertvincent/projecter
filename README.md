@@ -1,5 +1,5 @@
 # projecter 
-![CircleCI](https://circleci.com/gh/Alexandrehebertvincent/projecter.svg?style=shield)
+![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield)
 
 ***Project life manager, whatever project you are on*** 👍
 
@@ -8,6 +8,24 @@ Those are some basics utilities; feel free to propose more!
 * Register a new project
 * Add a **or multiple** client
 * Create and send invoice
+
+## Development
+Install on your computer:
+* Clone the repo
+* If you don't have yarn `npm install -g yarn`
+* Download and install the packages `yarn`
+* Start locally yarn start
+
+While developing, you will probably rely mostly on `yarn start`; however, there are additional scripts at your disposal:
+
+|`yarn <script>`    |Description|
+|-------------------|-----------|
+|`start`            |Serves your app at `localhost:3000`|
+|`build`            |Builds the application to ./dist|
+|`test`             |Runs unit tests with Karma. See [testing](#testing)|
+|`test:watch`       |Runs `test` in watch mode to re-run tests when changed|
+|`lint`             |[Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors|
+|`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
 
 ## API
 [projecter-api](https://github.com/Alexandrehebertvincent/projecter-api)
@@ -70,17 +88,6 @@ After completing the [installation](#installation) step, you're ready to start t
 ```bash
 $ yarn start  # Start the development server (or `npm start`)
 ```
-
-While developing, you will probably rely mostly on `yarn start`; however, there are additional scripts at your disposal:
-
-|`yarn <script>`    |Description|
-|-------------------|-----------|
-|`start`            |Serves your app at `localhost:3000`|
-|`build`            |Builds the application to ./dist|
-|`test`             |Runs unit tests with Karma. See [testing](#testing)|
-|`test:watch`       |Runs `test` in watch mode to re-run tests when changed|
-|`lint`             |[Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors|
-|`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
 
 ## Project Structure
 
