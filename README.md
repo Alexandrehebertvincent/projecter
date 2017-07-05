@@ -1,17 +1,5 @@
 # projecter 
-![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) ![codecov](https://codecov.io/gh/projecter-org/projecter/branch/master/graph/badge.svg) ![TravisCI](https://travis-ci.org/projecter-org/projecter.svg?branch=master) 
-Textile
-!https://codebeat.co/badges/97eae8f6-4ee4-4184-9523-7e1b3b087b3c(codebeat badge)!:https://codebeat.co/projects/github-com-projecter-org-projecter-master
-Project secrets
-
-Project Secret
-967ff73a84508809554ff7a8732d25a158e9d1af
-Project UUID
-97eae8f6-4ee4-4184-9523-7e1b3b087b3c
-Account API Key
-38eaca2d697d66e4d4950be768c694de4d215ea3
-Regenerate API Key
-Remove project
+![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) ![codecov](https://codecov.io/gh/projecter-org/projecter/branch/master/graph/badge.svg) ![TravisCI](https://travis-ci.org/projecter-org/projecter.svg?branch=master) [![codebeat badge](https://codebeat.co/badges/97eae8f6-4ee4-4184-9523-7e1b3b087b3c)](https://codebeat.co/projects/github-com-projecter-org-projecter-master)
 
 This will permanently remove all associated data in codebeat . I want to delete github.com/projecter-org/projecter.
 
