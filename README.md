@@ -1,5 +1,5 @@
 # projecter 
-![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) ![codecov](https://codecov.io/gh/projecter-org/projecter/branch/master/graph/badge.svg) ![TravisCI](https://travis-ci.org/projecter-org/projecter.svg?branch=master)
+![CircleCI](https://circleci.com/gh/projecter-org/projecter.svg?style=shield) ![codecov](https://codecov.io/gh/projecter-org/projecter/branch/master/graph/badge.svg) ![TravisCI](https://travis-ci.org/projecter-org/projecter.svg?branch=master) [![codebeat badge](https://codebeat.co/badges/97eae8f6-4ee4-4184-9523-7e1b3b087b3c)](https://codebeat.co/projects/github-com-projecter-org-projecter-master)
 
 ***Project life manager, whatever project you are on*** 👍
 
