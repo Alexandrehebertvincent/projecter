@@ -13,8 +13,17 @@
     copy:
       src: ../dist/
       dest: /home/projecter/web/
+      
+  - name: Create .htaccess
+    copy:
+      content: ""
+      dest: /home/projecter/web/.htaccess
+      force: no
+      group: sys
+      owner: root
+      mode: 0755
 
-  - name: Insert .htaccess
+  - name: Modify .htaccess
     blockinfile:
       path: /home/projecter/web/.htaccess
       block: |
