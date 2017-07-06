@@ -18,10 +18,6 @@
     copy:
       content: ""
       dest: /home/projecter/web/.htaccess
-      force: no
-      group: sys
-      owner: root
-      mode: 0755
 
   - name: Modify .htaccess
     blockinfile:
