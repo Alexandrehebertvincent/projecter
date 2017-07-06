@@ -15,12 +15,12 @@
       dest: /home/projecter/web/
 
   - name: Insert .htaccess
-      blockinfile:
-        path: /home/projecter/web/.htaccess
-        block: |
-          RewriteEngine On
-          RewriteBase /
-          RewriteCond %{REQUEST_FILENAME} !-f
-          RewriteCond %{REQUEST_FILENAME} !-d
-          RewriteCond %{REQUEST_FILENAME} !-l
-          RewriteRule ^.*$ / [L,QSA]
+    blockinfile:
+      path: /home/projecter/web/.htaccess
+      block: |
+        RewriteEngine On
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-l
+        RewriteRule ^.*$ / [L,QSA]
