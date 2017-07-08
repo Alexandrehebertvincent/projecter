@@ -54,16 +54,8 @@ class TopNav extends React.Component {
           open={this.state.open}
           onRequestChange={(open) => this.setState({ open })}
         >
-          <MenuItem
-            onTouchTap={this.goToHome}
-          >
-            Home
-          </MenuItem>
-          <MenuItem
-            onTouchTap={this.goToCounter}
-          >
-            Counter
-          </MenuItem>
+          <MenuItem onTouchTap={this.goToHome}>Home</MenuItem>
+          <MenuItem onTouchTap={this.goToCounter}>Counter</MenuItem>
         </Drawer>
       </div>
     )
