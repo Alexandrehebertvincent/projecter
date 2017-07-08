@@ -1,14 +1,15 @@
 import React from 'react'
 import PageLayout from 'layouts/PageLayout/PageLayout'
+import TopNav from 'components/common/TopNav'
 import { shallow } from 'enzyme'
 
 describe('(Layout) PageLayout', () => {
-  it('renders as a <div>', () => {
-    shallow(<PageLayout />).should.have.tagName('div')
+  it('should have a top navbar', () => {
+    shallow(<PageLayout />).should.contain(<TopNav />)
   })
 
-  it('renders a project title', () => {
-    shallow(<PageLayout />).find('h1').should.have.text('React Redux Starter Kit')
+  it('renders no more a project title', () => {
+    shallow(<PageLayout />).should.not.contain(<h1 />)
   })
 
   it('renders its children inside of the viewport', () => {
