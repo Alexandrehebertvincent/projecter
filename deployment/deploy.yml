@@ -13,14 +13,19 @@
     copy:
       src: ../dist/
       dest: /home/projecter/web/
+      
+  - name: Create .htaccess
+    copy:
+      content: ""
+      dest: /home/projecter/web/.htaccess
 
-  - name: Insert .htaccess
-      blockinfile:
-        path: /home/projecter/web/.htaccess
-        block: |
-          RewriteEngine On
-          RewriteBase /
-          RewriteCond %{REQUEST_FILENAME} !-f
-          RewriteCond %{REQUEST_FILENAME} !-d
-          RewriteCond %{REQUEST_FILENAME} !-l
-          RewriteRule ^.*$ / [L,QSA]
+  - name: Modify .htaccess
+    blockinfile:
+      path: /home/projecter/web/.htaccess
+      block: |
+        RewriteEngine On
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-l
+        RewriteRule ^.*$ / [L,QSA]
