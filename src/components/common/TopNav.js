@@ -45,7 +45,7 @@ class TopNav extends React.Component {
           style={{ margin: 20 }}
         />
         <AppBar
-          title='Producer'
+          title='Projecter'
           iconElementRight={this.state.logged ? <Logged /> : <Login />}
           onLeftIconButtonTouchTap={this.openDrawer}
         />
