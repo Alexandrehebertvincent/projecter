@@ -27,7 +27,4 @@ deployment:
     commands:
       - yarn build
       - ansible-playbook deployment/deploy.yml -i deployment/vars
-      - curl https://api.rollbar.com/api/1/deploy/ \
-        -F access_token=671bf98277ba46289d191d039aa0b7c6 \
-        -F environment=$production \
-        -F revision=`git log -n 1 --pretty=format:"%H"`
+      - curl https://api.rollbar.com/api/1/deploy/  -F access_token=671bf98277ba46289d191d039aa0b7c6 -F environment='production' -F revision=`git log -n 1 --pretty=format:"%H"`
